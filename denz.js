@@ -74,15 +74,15 @@ const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRando
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:Hizkia\n'
-            + 'ORG:Owner Hizkia;\n'
+            + 'FN:MarzGanz\n'
+            + 'ORG:Owner MarzGanz;\n'
             + 'TEL;type=CELL;type=VOICE;waid=6289652412038:+62 896-5241-2038\n'
             + 'END:VCARD'
        
 const vcard1 = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:Hizkia\n'
-            + 'ORG:Owner Hizkia;\n'
+            + 'FN:MarzGanz\n'
+            + 'ORG:Owner MarzGanz;\n'
             + 'TEL;type=CELL;type=VOICE;waid=6289652412038:+62 896-5241-2038\n'
             + 'END:VCARD'
 
