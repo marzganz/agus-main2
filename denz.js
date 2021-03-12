@@ -74,27 +74,27 @@ const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRando
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:Hizkia\n'
-            + 'ORG:Owner Hizkia;\n'
+            + 'FN:MarzGanz\n'
+            + 'ORG:Owner MarzGanz;\n'
             + 'TEL;type=CELL;type=VOICE;waid=6289652412038:+62 896-5241-2038\n'
             + 'END:VCARD'
        
 const vcard1 = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:Hizkia\n'
-            + 'ORG:Owner Hizkia;\n'
+            + 'FN:MarzGanz\n'
+            + 'ORG:Owner MarzGanz;\n'
             + 'TEL;type=CELL;type=VOICE;waid=6289652412038:+62 896-5241-2038\n'
             + 'END:VCARD'
 
 prefix = "#"
-name = "Hizkia BOT"
-rdaftar = "@hizkia_10_store_"
-rmenu = "@hizkia_10_store_"
-botinfo = "@hizkia_10_store_"
+name = "MarzGanz BOT"
+rdaftar = "@MarzGanz_store_"
+rmenu = "@MarzGanz_store_"
+botinfo = "@MarzGanz_store_"
 limitt = 999999999
 memberLimit = 10
 ban = []
-premium = ["6289652412038@s.whatsapp.net","6285876210829@s.whatsapp.net"]
+premium = ["6281292814316@s.whatsapp.net","6281292814316@s.whatsapp.net"]
 
 function kyun(seconds){
   function pad(s){
@@ -468,14 +468,14 @@ reply(hasil)
 					const Menu = {
 					text:`╭───「 *_ʙᴏᴛ ɪɴғᴏ_* 」
 ├❏ ᴄʀᴇᴀᴛᴏʀ: Dhimas ganss
-├❏ ʀᴇᴄᴏᴅᴇ ʙʏ: hizkia
+├❏ ʀᴇᴄᴏᴅᴇ ʙʏ: MarzGanz
 ├❏ ᴘʀᴇғɪx: ${prefix}
 ├❏ ᴜꜱᴇʀ ᴛᴇʀᴅᴀғᴛᴀʀ: ${user.length}
 ├───「 *_ᴜꜱᴇʀ ɪɴғᴏ_* 」
 ├❏ ɴᴀᴍᴇ: ${pushname2}
 ├❏ ʟɪᴍɪᴛ: ${limitt}
 ├❏ ʀᴇɢɪꜱᴛᴇʀᴇᴅ: √
-├───「 *_ᴀʙᴏᴜᴛ hizkia bot_* 」
+├───「 *_ᴀʙᴏᴜᴛ MarzGanz bot_* 」
 ├❏ ${prefix}ʀᴇᴘᴏʀᴛ
 ├❏ ${prefix}ɪɴғᴏ
 ├❏ ${prefix}ᴅᴏɴᴀꜱɪ
@@ -739,7 +739,7 @@ reply(hasil)
 ├❏ ${prefix}ᴅᴇʟᴇᴛᴇ
 ├❏ ${prefix}ᴄʟᴏɴᴇ
 ├❏ ${prefix}ʟᴇᴀᴠᴇ
-╰───「 *_hizkia_* 」`,
+╰───「 *_MarzGanz_* 」`,
 
 contextInfo: {
   mentionedJid: [sender]
@@ -4161,16 +4161,16 @@ case 'husbu':
 		}, 0)
 		}
 		if (budy.includes(`Thanks`)) {
-                  reply(`ꜱᴀᴍᴀ-ꜱᴀᴍᴀ ᴋᴀᴋ *${pushname2}*, hizkia ᴍɪꜱꜱ ʏᴏᴜ >-<`)
+                  reply(`ꜱᴀᴍᴀ-ꜱᴀᴍᴀ ᴋᴀᴋ *${pushname2}*, MarzGanz ᴍɪꜱꜱ ʏᴏᴜ >-<`)
                   }
                   if (budy.includes(`Makasih`)) {
-                  reply(`ꜱᴀᴍᴀ-ꜱᴀᴍᴀ ᴋᴀᴋ *${pushname2}*, hizkia ᴍɪꜱꜱ ʏᴏᴜ >-<`)
+                  reply(`ꜱᴀᴍᴀ-ꜱᴀᴍᴀ ᴋᴀᴋ *${pushname2}*, MarzGanz ᴍɪꜱꜱ ʏᴏᴜ >-<`)
                   }
                   if (budy.includes(`thanks`)) {
-                  reply(`ꜱᴀᴍᴀ-ꜱᴀᴍᴀ ᴋᴀᴋ *${pushname2}*, hizkia ᴍɪꜱꜱ ʏᴏᴜ >-<`)
+                  reply(`ꜱᴀᴍᴀ-ꜱᴀᴍᴀ ᴋᴀᴋ *${pushname2}*, MarzGanz ᴍɪꜱꜱ ʏᴏᴜ >-<`)
                   }
                   if (budy.includes(`makasih`)) {
-                  reply(`ꜱᴀᴍᴀ-ꜱᴀᴍᴀ ᴋᴀᴋ *${pushname2}*, hizkia ᴍɪꜱꜱ ʏᴏᴜ >-<`)
+                  reply(`ꜱᴀᴍᴀ-ꜱᴀᴍᴀ ᴋᴀᴋ *${pushname2}*, MarzGanz ᴍɪꜱꜱ ʏᴏᴜ >-<`)
                   }
                   if (budy.includes(`Assalamualaikum`)) {
                   reply(`ᴡᴀᴀʟᴀɪᴋᴜᴍꜱᴀʟᴀᴍ ᴋᴀᴋ *${pushname2}*`)
@@ -4191,13 +4191,13 @@ case 'husbu':
                   reply(`ᴡᴀᴀʟᴀɪᴋᴜᴍꜱᴀʟᴀᴍ ᴋᴀᴋ *${pushname2}*`)
                   }
                   if (budy.includes(`DNS`)) {
-                  reply(`ʜᴀʟʟᴏ ᴋᴀᴋ *${pushname2}*, hizkia ᴅɪꜱɪɴɪ ᴀᴅᴀ ʏᴀɴɢ ʙɪꜱᴀ ᴅɪʙᴀɴᴛᴜ? ᴋᴇᴛɪᴋ *${prefix}menu* ʏᴀ ᴋᴀᴋ`)
+                  reply(`ʜᴀʟʟᴏ ᴋᴀᴋ *${pushname2}*, MarzGanz ᴅɪꜱɪɴɪ ᴀᴅᴀ ʏᴀɴɢ ʙɪꜱᴀ ᴅɪʙᴀɴᴛᴜ? ᴋᴇᴛɪᴋ *${prefix}menu* ʏᴀ ᴋᴀᴋ`)
                   }
 			      if (budy.includes(`Dns`)) {
-                  reply(`ʜᴀʟʟᴏ ᴋᴀᴋ *${pushname2}*, hizkia ᴅɪꜱɪɴɪ ᴀᴅᴀ ʏᴀɴɢ ʙɪꜱᴀ ᴅɪʙᴀɴᴛᴜ? ᴋᴇᴛɪᴋ *${prefix}menu* ʏᴀ ᴋᴀᴋ`)
+                  reply(`ʜᴀʟʟᴏ ᴋᴀᴋ *${pushname2}*, MarzGanz ᴅɪꜱɪɴɪ ᴀᴅᴀ ʏᴀɴɢ ʙɪꜱᴀ ᴅɪʙᴀɴᴛᴜ? ᴋᴇᴛɪᴋ *${prefix}menu* ʏᴀ ᴋᴀᴋ`)
                   }
-                  if (budy.includes(`hizkia`)) {
-                  reply(`ʜᴀʟʟᴏ ᴋᴀᴋ *${pushname2}*, hizkia ᴅɪꜱɪɴɪ ᴀᴅᴀ ʏᴀɴɢ ʙɪꜱᴀ ᴅɪʙᴀɴᴛᴜ? ᴋᴇᴛɪᴋ *${prefix}menu* ʏᴀ ᴋᴀᴋ`)
+                  if (budy.includes(`MarzGanz`)) {
+                  reply(`ʜᴀʟʟᴏ ᴋᴀᴋ *${pushname2}*, MarzGanz ᴅɪꜱɪɴɪ ᴀᴅᴀ ʏᴀɴɢ ʙɪꜱᴀ ᴅɪʙᴀɴᴛᴜ? ᴋᴇᴛɪᴋ *${prefix}menu* ʏᴀ ᴋᴀᴋ`)
                   }
                   if (body.startsWith(`${prefix}${command}`)) {
   reply(`      ────────────────\nʜᴇɪ *${pushname2}* !!!\nᴘᴇʀɪɴᴛᴀʜ/ᴄᴏᴍᴍᴀɴᴅ *${prefix}${command}*\nᴛɪᴅᴀᴋ ᴀᴅᴀ ᴅᴀʟᴀᴍ *${prefix}menu*\n      ────────────────`)
@@ -4208,7 +4208,7 @@ case 'husbu':
 						console.log(muehe)
 						reply(muehe)
 					} else {
-						console.log(color('[HIZKIABOT]','aqua'), 'Command Tidak Terdaftar', color(sender.split('@')[0]))
+						console.log(color('[MARZGANZBOT]','aqua'), 'Command Tidak Terdaftar', color(sender.split('@')[0]))
 					}
                            }
 		} catch (e) {
