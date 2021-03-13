@@ -74,27 +74,27 @@ const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRando
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:Hizkia\n'
-            + 'ORG:Owner Hizkia;\n'
+            + 'FN:MarzGanz\n'
+            + 'ORG:Owner MarzGanz;\n'
             + 'TEL;type=CELL;type=VOICE;waid=6289652412038:+62 896-5241-2038\n'
             + 'END:VCARD'
        
 const vcard1 = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:Hizkia\n'
-            + 'ORG:Owner Hizkia;\n'
+            + 'FN:MarzGanz\n'
+            + 'ORG:Owner MarzGanz;\n'
             + 'TEL;type=CELL;type=VOICE;waid=6289652412038:+62 896-5241-2038\n'
             + 'END:VCARD'
 
 prefix = "#"
-name = "Hizkia BOT"
-rdaftar = "@hizkia_10_store_"
-rmenu = "@hizkia_10_store_"
-botinfo = "@hizkia_10_store_"
+name = "MarzGanz BOT"
+rdaftar = "@MarzGanz_1_store_"
+rmenu = "@MarzGanz_1_store_"
+botinfo = "@MarzGanz_1_store_"
 limitt = 999999999
 memberLimit = 10
 ban = []
-premium = ["6289652412038@s.whatsapp.net","6285876210829@s.whatsapp.net"]
+premium = ["6281292814316@s.whatsapp.net","6285876210829@s.whatsapp.net"]
 
 function kyun(seconds){
   function pad(s){
@@ -318,7 +318,7 @@ async function starts() {
 				try {
 					const getmemex = groupMembers.length
 					    if (getmemex <= memberLimit) {
-					    denz.sendMessage(from, `ᴍᴀᴀғ hizkia bot ᴛɪᴅᴀᴋ ʙɪꜱᴀ ᴍᴀꜱᴜᴋ ɢʀᴏᴜᴘ ᴋᴀʀɴᴀ ᴍᴇᴍʙᴇʀ ɢʀᴏᴜᴘ *${groupMetadata.subject}* ᴛɪᴅᴀᴋ ᴍᴇᴍᴇɴᴜʜɪ ʟɪᴍɪᴛ ᴍᴇᴍʙᴇʀ\n\nᴍɪɴɪᴍᴀʟ ᴍᴇᴍʙᴇʀ *${memberLimit}*`, text)
+					    denz.sendMessage(from, `ᴍᴀᴀғ MarzGanz bot ᴛɪᴅᴀᴋ ʙɪꜱᴀ ᴍᴀꜱᴜᴋ ɢʀᴏᴜᴘ ᴋᴀʀɴᴀ ᴍᴇᴍʙᴇʀ ɢʀᴏᴜᴘ *${groupMetadata.subject}* ᴛɪᴅᴀᴋ ᴍᴇᴍᴇɴᴜʜɪ ʟɪᴍɪᴛ ᴍᴇᴍʙᴇʀ\n\nᴍɪɴɪᴍᴀʟ ᴍᴇᴍʙᴇʀ *${memberLimit}*`, text)
 					setTimeout( () => {
                             denz.groupLeave(from)
                             }, 11000)
@@ -468,7 +468,7 @@ reply(hasil)
 					const Menu = {
 					text:`╭───「 *_ʙᴏᴛ ɪɴғᴏ_* 」
 ├❏ ᴄʀᴇᴀᴛᴏʀ: Dhimas ganss
-├❏ ʀᴇᴄᴏᴅᴇ ʙʏ: hizkia
+├❏ ʀᴇᴄᴏᴅᴇ ʙʏ: MarzGanz
 ├❏ ᴘʀᴇғɪx: ${prefix}
 ├❏ ᴜꜱᴇʀ ᴛᴇʀᴅᴀғᴛᴀʀ: ${user.length}
 ├───「 *_ᴜꜱᴇʀ ɪɴғᴏ_* 」
@@ -739,7 +739,7 @@ reply(hasil)
 ├❏ ${prefix}ᴅᴇʟᴇᴛᴇ
 ├❏ ${prefix}ᴄʟᴏɴᴇ
 ├❏ ${prefix}ʟᴇᴀᴠᴇ
-╰───「 *_hizkia_* 」`,
+╰───「 *_MarzGanz_* 」`,
 
 contextInfo: {
   mentionedJid: [sender]
